@@ -1,0 +1,7 @@
+@"
+.jupyter/
+.jupyter-data/
+.jupyter-runtime/
+__pycache__/
+*.pyc
+"@ | Set-Content .gitignore
