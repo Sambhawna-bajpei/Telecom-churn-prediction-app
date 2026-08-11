@@ -1,0 +1,24 @@
+{
+  "raw_rows": 7043,
+  "modeling_rows": 7032,
+  "dropped_blank_total_charges_rows": 11,
+  "best_grid_parameters": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 3,
+    "model__n_estimators": 200
+  },
+  "best_cv_f1": 0.5774,
+  "recommended_model": "Decision Tree",
+  "test_metrics": {
+    "Accuracy": 0.7818,
+    "Precision": 0.5903,
+    "Recall": 0.5856,
+    "F1": 0.5879,
+    "ROC-AUC": 0.8137
+  },
+  "retention_actions": [
+    "Prioritize month-to-month customers with high predicted churn probability for proactive outreach.",
+    "Offer a contract conversion incentive or bundle discount to at-risk fibre and electronic-check customers.",
+    "Proactively promote technical support and online-security bundles where service gaps signal churn risk."
+  ]
+}
